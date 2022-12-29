@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## React 五步法
+- 第一步：将设计好的 UI 划分为组件层级
+- 第二步：用 React 创建一个静态版本
+- 第三步：确定 UI state 的最小（且完整）表示
+- 第四步：确定 state 放置的位置
+- 第五步：添加反向数据流
+
 ## Available Scripts
 
 In the project directory, you can run:
