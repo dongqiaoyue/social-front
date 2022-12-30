@@ -6,7 +6,7 @@ import classNames from 'classnames';
 import MyPopup from '@components/MyPopup';
 import {useState} from 'react';
 import Avatar from '@components/Avatar';
-import logo from '../../assets/twitter-logo.svg';
+import logo from '@assets/twitter-logo.svg';
 
 import style from './index.module.scss';
 
@@ -79,10 +79,13 @@ const Header = ({
           onClick={store.closeHeaderHandler}
         />,
     );
-    result.push(<img src={logo} alt="twitter-logo" className={style.twitterLog} />);
+    result.push(<img src={logo} alt="twitter-logo"
+      className={style.twitterLog} />);
   }
   return (
-    <div className={classNames(style.header, {[style.borderHeader]: !menu.hideHeader})}>
+    <div className={classNames(style.header, {
+      [style.borderHeader]: !menu.hideHeader,
+    })}>
       {result}
     </div>
   );

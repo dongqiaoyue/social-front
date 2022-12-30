@@ -1,7 +1,7 @@
 import {
   Button, Input, Form, Dialog,
 } from 'antd-mobile';
-import {loginService} from '../../services/login';
+import {loginService} from '@services/login';
 import './index.css';
 
 const initialValues = {

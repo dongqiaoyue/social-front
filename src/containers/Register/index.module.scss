@@ -20,7 +20,7 @@
 }
 
 .changeTypeButton {
-  color: $tBlue;
+  //color: $tBlue;
 }
 
 .birthdayTitle {
@@ -40,7 +40,7 @@
 .footerButtonDisabled {
   margin: 0 auto;
   border-radius: 50px;
-  background-color: $tGray;
+  //background-color: $tGray;
   color: #fff;
   font-size: 16px;
   width: 80%;
@@ -57,13 +57,10 @@
   font-size: 18px;
   height: 40px;
   line-height: 40px;
-  :global(span) {
-    color: $tGray;
-  }
 }
 
 .showLabelContainer {
-  border: solid 1px $tGrayWhite;
+  border: solid 1px;
   padding: 10px;
   border-radius: 5px;
 }

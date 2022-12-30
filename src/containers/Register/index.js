@@ -1,7 +1,7 @@
 import {Button, Input} from 'antd-mobile';
 import {CloseOutline} from 'antd-mobile-icons';
-import logo from '../../assets/pigeon-bird-icon.svg';
-import datepicker from '../../assets/datepicker-icon.svg';
+import logo from '@assets/pigeon-bird-icon.svg';
+import datepicker from '@assets/datepicker-icon.svg';
 
 import style from './index.module.scss';
 

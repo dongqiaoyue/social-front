@@ -2,7 +2,7 @@ import {useState} from 'react';
 import {DatePicker} from 'antd-mobile';
 import moment from 'moment';
 import PropTypes from 'prop-types';
-import datepickerIcon from '../../assets/datepicker-icon.svg';
+import datepickerIcon from '@assets/datepicker-icon.svg';
 import style from './index.module.scss';
 
 /**
